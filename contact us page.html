@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style3.css">
+    
+</head>
+<body>
+   
+  <form action="app.js" method="post">
+    <h1>Contact Us</h1>
+    <abbr title="google is a multinational company"><a href="https://google.com">google</a></abbr>
+    
+  Name:<input placeholder="enter your name" required type="text" name="name" id="name">
+
+<div>
+
+Email:<input placeholder="enter your email" required type="text" name="email" id="email">
+</div>
+<div>
+  Address:<textarea placeholder="enter your address" required name="useraddress"  id="address" line="30" col="90"></textarea>
+</div>
+<div>
+  Gender: <select name="usergender" id="gender">
+    <option value="choose one">Choose one</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="transgender">Transgender</option>
+    </select>
+  <div>
+    <div>
+      Number:<input placeholder="enter your number" required name="usernumber" id="number">
+    </div>
+    
+Password:<input placeholder="enter your password" required name="userpassword" id="password">
+<div>
+  Frontend:<input type="checkbox" name="skills" id="frontend">
+Backend:<input type="checkbox" name="skills" id="backend">
+</div>
+<fieldset>
+  <legend>mode of payment</legend>
+Cash:<input type="radio" name="payment" id="cash">
+Bank:<input type="radio" name="payment" id="bank">
+</fieldset>
+<button type="submit">submit</button>
+  </form>
+  </body>
+   </html>
